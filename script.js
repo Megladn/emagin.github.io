@@ -1,5 +1,6 @@
 const apiKey = "YOUR_API_KEY";
-const apiUrl = "https://www.bing.com/images/create/${prompt}/1-65dcd94597634448a24da184ee2316ce?FORM=GENCRE"
+const apikey = "1-65dcd94597634448a24da184ee2316ce"
+const apiUrl = "https://www.bing.com/images/create/"
 
 const maxImages = 4; // Number of images to generate for each prompt
 let selectedImageNumber = null;
