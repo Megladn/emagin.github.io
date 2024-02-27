@@ -594,8 +594,8 @@ var audioPool = {
     oggSource = document.createElement('source');
 
     // Get the name of the sounds from the object inside the array
-    mp3Link = "sounds/mp3/" + element.sound + ".mp3";
-    oggLink = "sounds/ogg/" + element.sound + ".ogg";
+    mp3Link = element.sound + ".mp3";
+    oggLink = element.sound + ".ogg";
 
     // Setting the attributes for the source elemnts
     mp3Source.setAttribute('type', 'audio/mpeg');
